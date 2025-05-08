@@ -1,0 +1,13 @@
+dbt_training_repos:
+  outputs:
+    dev:
+      account: OTJHLZL-JI19900
+      database: RAW
+      password: Pass@123456789
+      role: Accountadmin
+      schema: Staging
+      threads: 4
+      type: snowflake
+      user: JYOTI
+      warehouse: COMPUTE_WH
+  target: dev
